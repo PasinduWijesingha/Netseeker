@@ -6,10 +6,11 @@
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
 </head>
 
 <body>
-
+ 
   <script src="script.js"></script>
   <nav id="navbar" class="">
     <div class="nav-wrapper">
@@ -54,13 +55,13 @@
 
   <div class="wrap">
     <div class="search">
-      <input type="text" class="searchTerm" placeholder="Enter URL for search...">
-      <button type="submit" class="searchButton"> Search
+      <script src="search.js"></script>
+      <input type="text" class="searchTerm" placeholder="Enter URL for search..."id="getlink">
+      <button type="submit" class="searchButton" onclick="window.location.href='pythonscript.html';"> Search
         <i class="fa fa-search"></i>
       </button>
     </div>
   </div>
-
 </body>
 
 </html>
